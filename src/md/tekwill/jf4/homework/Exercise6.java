@@ -1,5 +1,7 @@
 package md.tekwill.jf4.homework;
 
+import java.util.Scanner;
+
 public class Exercise6 {
 
     /*
@@ -11,6 +13,19 @@ public class Exercise6 {
      */
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter variables for calculation of this expression ((x * y - z * q) / (r - n))\n" +
+                "x,y,z,q,r,n:");
+
+        double x  = sc.nextDouble();
+        double y  = sc.nextDouble();
+        double z  = sc.nextDouble();
+        double q  = sc.nextDouble();
+        double r  = sc.nextDouble();
+        double n  = sc.nextDouble();
+
+        double rez = ((x * y - z * q) / (r - n));
+        System.out.println("The result of is equal to " + rez);
     }
 }
