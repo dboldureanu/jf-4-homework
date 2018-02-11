@@ -13,7 +13,7 @@ public class Exercise3 {
     */
 
     public static void main(String[] args) {
-        int dividend,divisor;
+        double dividend,divisor;
 
         Scanner in = new Scanner(System.in);
 
@@ -26,7 +26,7 @@ public class Exercise3 {
         System.out.println("Division of two numbers is "+div(dividend,divisor));
     }
 
-    public static int div(int a, int b){
-        return a/b;
+    public static double div(double a, double b){
+        return Math.floor(a/b);
     }
 }

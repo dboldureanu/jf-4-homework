@@ -29,6 +29,7 @@ public class Exercise6 {
     }
 
     public static double calcExpr(double x,double y, double z, double a, double b, double c){
-        return (x*y-z*a)/(b-c);
+       return (x*y-z*a)/(b-c);
     }
 }
+
