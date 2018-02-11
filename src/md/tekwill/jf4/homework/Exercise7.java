@@ -12,6 +12,11 @@ public class Exercise7 {
      */
 
     public static void main(String[] args) {
+        double R = 7.5;
+        double P = R * 2 * Math. PI;
+        double Ar = (R * R) * Math. PI ;
 
+        System.out.println(P);
+        System.out.println(Ar);
     }
 }

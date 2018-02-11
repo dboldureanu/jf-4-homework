@@ -12,5 +12,9 @@ public class Exercise6 {
 
     public static void main(String[] args) {
 
+        double q = 25.5, w = 3.5, e = 3.5, r = 3.5, t = 40.5, y = 4.5;
+        double sum = ((q * w - e * r )/( t - y));
+
+        System.out.println(sum);
     }
 }
