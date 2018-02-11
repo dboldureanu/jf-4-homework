@@ -1,5 +1,7 @@
 package md.tekwill.jf4.homework;
 
+import java.util.Scanner;
+
 public class Exercise3 {
 
     /*
@@ -11,6 +13,20 @@ public class Exercise3 {
     */
 
     public static void main(String[] args) {
+        double dividend,divisor;
 
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter the dividend");
+        dividend = in.nextInt();
+
+        System.out.println("Enter the divisor");
+        divisor = in.nextInt();
+
+        System.out.println("Division of two numbers is "+div(dividend,divisor));
+    }
+
+    public static double div(double a, double b){
+        return Math.floor(a/b);
     }
 }
