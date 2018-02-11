@@ -12,5 +12,11 @@ public class Exercise6 {
 
     public static void main(String[] args) {
 
+        double number;
+
+        number = (25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5);
+
+        System.out.println("Rezultatul operatiei este:\n" +number);
+
     }
 }
