@@ -1,4 +1,5 @@
 package md.tekwill.jf4.homework;
+import java.util.Scanner;
 
 public class Exercise2 {
 
@@ -11,6 +12,17 @@ public class Exercise2 {
     */
 
     public static void main(String[] args) {
-        // System.out.println(?);
+        Scanner input=new Scanner(System.in);
+        int number1, number2;
+        int sum;
+
+        System.out.println("Introdu primul numar intreg: ");
+        number1 = input.nextInt();
+        System.out.println("Introdu al doilea numar intreg: ");
+        number2 = input.nextInt();
+
+        sum = number1+number2;
+
+        System.out.println("Suma a doua numere este: " +sum);
     }
 }
