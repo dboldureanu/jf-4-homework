@@ -11,6 +11,9 @@ public class Exercise2 {
     */
 
     public static void main(String[] args) {
-        // System.out.println(?);
+        int x = 74 , y = 36;
+        int sum = x + y;
+
+        System.out.println(sum);
     }
 }
