@@ -11,6 +11,18 @@ public class Exercise2 {
     */
 
     public static void main(String[] args) {
-        // System.out.println(?);
+
+        try
+        {
+            int a = Integer.parseInt(args[0]);
+            int b = Integer.parseInt(args[1]);
+            System.out.println(a+b);
+        }
+        catch (Exception e)
+        {
+            System.out.println("Expected 2 numbers");
+            System.exit(0);
+        }
+
     }
 }
