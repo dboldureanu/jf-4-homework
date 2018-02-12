@@ -18,9 +18,9 @@ public class Exercise7 {
             return;
         }
 
-        try
+        try	
         {
-            double r = Integer.parseInt(args[0]);
+            double r = Double.parseDouble(args[0]);
             double pi = Math.PI;
             double area = pi * Math.pow(r,2);
             System.out.println("Radius: " + r + System.lineSeparator() + "Area: " + area);
