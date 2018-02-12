@@ -39,7 +39,7 @@ public class Exercise4 {
                 x = scan.nextInt();
                 y = scan.nextInt();
                 z = scan.nextInt();
-                System.out.println("The result of  is equal to " + (x+y*z));
+                System.out.println("The result is equal to " + (x+y*z));
                 break;
 
             case "b":
@@ -48,7 +48,7 @@ public class Exercise4 {
                 x = scan.nextInt();
                 y = scan.nextInt();
                 z = scan.nextInt();
-                System.out.println("The result of  is equal to " + ((x+y)%z));
+                System.out.println("The result is equal to " + ((x+y)%z));
                 break;
 
             case "c":
@@ -58,7 +58,7 @@ public class Exercise4 {
                 y = scan.nextInt();
                 z = scan.nextInt();
                 q = scan.nextInt();
-                System.out.println("The result of  is equal to " + (x+y*z/q));
+                System.out.println("The result is equal to " + (x+y*z/q));
                 break;
 
             case "d":
@@ -70,7 +70,7 @@ public class Exercise4 {
                 q = scan.nextInt();
                 v = scan.nextInt();
                 u = scan.nextInt();
-                System.out.println("The result of  is equal to " + (x+y/z*q-v%u));
+                System.out.println("The result is equal to " + (x+y/z*q-v%u));
                 break;
 
             default:
