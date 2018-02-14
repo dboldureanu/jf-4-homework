@@ -1,5 +1,7 @@
 package md.tekwill.jf4.homework;
 
+import java.util.Scanner;
+
 public class Exercise7 {
 
     /*
@@ -12,6 +14,17 @@ public class Exercise7 {
      */
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double radius, perimeter, area;
+
+        System.out.println("Please enter the radius of the circle: ");
+        radius = sc.nextDouble();
+
+        perimeter = 2 * Math.PI * radius;
+        area = Math.PI * Math.pow(radius,2);
+
+        System.out.println("Perimeter is = " + perimeter+ "\n" +
+                "Area is = " + area);
 
     }
 }
